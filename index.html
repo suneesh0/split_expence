@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Split Amount</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="notch">
+            <input type="text" disabled>
+            <div class="circle">
+                <input type="text" disabled>
+            </div>
+        </div>
+        <div class="card">
+            <h2>split your bill</h2>
+            <p>
+                An app to split expences between friends or roommates,allowing them to track and settle debts easily.
+            </p>
+            <h2 id="amt"> amount </h2>
+            <div class="input">
+                <input type="text" name="amount" id="amount" placeholder="Total Amount">
+                <input type="text" name="split" id="split" placeholder="Number Of Person">
+            </div>
+            <button aria-label="button" onclick="split()">SPLIT THE EXPENCE</button>
+        </div>
+    </div>
+</body>
+</html>
